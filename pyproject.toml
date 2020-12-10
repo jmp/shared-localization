@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "shared-localization"
+version = "0.0.0"
+description = "Share translations between Android and iOS apps."
+authors = ["Jarkko Piiroinen <jmp@git.mail.kapsi.fi>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/jmp/shared-localization"
+repository = "https://github.com/jmp/shared-localization.git"
+classifiers = [
+    "Topic :: Software Development :: Localization",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+
+[tool.poetry.dependencies]
+python = "^3.9.0"
+PyYAML = "^5.3.1"
+pytest = "^6.1.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

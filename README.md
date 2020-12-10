@@ -1,2 +1,3 @@
 # shared-localization
-Share localizations between Android and iOS
+
+Share translations between Android and iOS.
